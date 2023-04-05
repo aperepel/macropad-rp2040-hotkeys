@@ -15,9 +15,9 @@ app = {
         # 2nd row ----------
         (0x000754, 'People', [Keycode.CONTROL, Keycode.COMMAND, Keycode.P]),
         (0x000754, 'Chat', [Keycode.CONTROL, Keycode.COMMAND, Keycode.C]),
-        (0x000754, 'Leave', [Keycode.COMMAND, Keycode.W]),
+        (0xFF0000, 'Leave', [Keycode.COMMAND, Keycode.W]),
         # 3rd row ----------
-        (keyconfig.LED_BLANK, keyconfig.KEY_BLANK, []),
+        (0x009900, 'Hand', [Keycode.CONTROL, Keycode.COMMAND, Keycode.H]),
         (keyconfig.LED_BLANK, keyconfig.KEY_BLANK, []),
         (keyconfig.LED_BLANK, keyconfig.KEY_BLANK, []),
         # 4th row ----------
