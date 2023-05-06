@@ -17,12 +17,12 @@ app = {
         (keyconfig.LED_BLANK, keyconfig.KEY_BLANK, []),
         (0xFF0000, 'Leave', [Keycode.COMMAND, Keycode.W]),
         # 3rd row ----------
-        (0x009900, 'Hand', [Keycode.CONTROL, Keycode.COMMAND, Keycode.H]),
         (0x000754, 'People', [Keycode.CONTROL, Keycode.COMMAND, Keycode.P]),
         (0x000754, 'Chat', [Keycode.CONTROL, Keycode.COMMAND, Keycode.C]),
+        (0x777777, 'PiP', [Keycode.SHIFT, Keycode.M]),
         # 4th row ----------
         (0x540908, 'Audio', [Keycode.COMMAND, Keycode.D]),
-        (0x777777, 'PiP', [Keycode.SHIFT, Keycode.M]),
+        (0x009900, 'Hand', [Keycode.CONTROL, Keycode.COMMAND, Keycode.H]),
         (0x04541B, 'Video', [Keycode.COMMAND, Keycode.E]),
     ]
 }
